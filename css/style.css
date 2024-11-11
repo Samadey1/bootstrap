@@ -1,0 +1,29 @@
+/* .navbar {
+    text-decoration: none;
+    color: white
+} */
+
+body::before{
+    display: block;
+    content: '';
+    height: 72px;
+}
+
+#boxes.card{
+   min-height: 260px;
+  
+}
+
+#instructors img{
+    width: 70px;
+    background-color: rgb(212, 137, 46);
+}
+
+/* Breakpoint for Medium */
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+
+    }
+    
+}
